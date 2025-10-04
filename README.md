@@ -56,3 +56,19 @@
             - {0: 1} Use when the map stores -> count of occurrences
             - {0: -1} Use when the map stores -> latest index of prefix_sum
             - Example: “Subarray Sums Divisible by K”
+
+### 🌟 Majority Elements
+    - There are two categories
+        - Number of elements more than (n/2):
+            - Set count = 0 and candidate = None
+            - Check if count = 0, if yes, set the current element 
+            - Increment the count by 1 if same as candidate or decrease by 1
+            - Count the candidate in array with condition
+
+        - Number of elements more than (n/3):
+            - Set count1, count2= 0 and candidate1, candidate2= None
+            - Iterate check if and candidate match the current num 
+            - Then check if any count1 or count2 = 0
+            - Else: Reduce both count1 and count2 by 1
+
+            - Point to note is, first we need to check mathcing candidate 1 , 2 with iterator and then set the candidate value 
