@@ -71,4 +71,10 @@
             - Then check if any count1 or count2 = 0
             - Else: Reduce both count1 and count2 by 1
 
-            - Point to note is, first we need to check mathcing candidate 1 , 2 with iterator and then set the candidate value 
+            - Point to note is, first we need to check mathcing candidate 1 , 2 with iterator and then set the candidate value
+
+### 🌟 DFS 
+    - There are 2 ways to solve using DFS 
+        - Validate the boundary conditions just after entering dfs and return if not satisfied
+        - Create changes list with [(1,0),(-1,0),(0,1),(0,-1)] and loop through them while checking for boundary and extra condition 
+
