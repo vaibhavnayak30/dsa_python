@@ -96,5 +96,14 @@
 ##############################################
 
 ## Data Structures Concepts
-### 📌 Heaps 
+### 📌 Heaps
+    - Heap is a type of "Binary Tree", specifically a "Complete Binary Tree"
+    - Time Complexity for adding and removing an element is O(logn), where n is number of elements 
+    - Any operations involve traversing the height of the heap, and a binary heap has a logarithmic height
+    - Best case O(1), when new element is added to end and already satisfy heap property, average is O(logn)
+
+    - Time complexity of O(logn) in heaps is result of their structure and not the values they store
+    - The height of a complete binary tree is always log(n)
+    - Adding and removing elements requires, in the worst case, traversing a path from the root to a leaf or vice versa which is logarithmic
+
 
