@@ -92,3 +92,9 @@
 
         - Are moves equally costly? -> DFS
         - Am I minimizing something like distance, time, energy, or elevation? -> Dijkstra’s
+
+##############################################
+
+## Data Structures Concepts
+### 📌 Heaps 
+
