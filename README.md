@@ -1,5 +1,31 @@
 # DSA Notes
 
+### 🌟 Binary Search 
+    - Loop condition
+        - while left <= right
+
+    - Every binary search question falls into one of three categories
+        - Equality Search
+            - Find the index of target in sorted array
+            - if arr[mid] == target:
+                return mid
+            - return left
+
+        - Lower Bound
+            - Find the first element ≥ target
+            - if arr[mid] >= target:
+                right = mid - 1
+            - else:
+                left = mid + 1
+            - return left
+
+        - Upper Bound
+            - Find the last element ≤ target
+            - if arr[mid] <= target:
+                left = mid + 1
+            - else:
+                right = mid - 1
+            - return right
 
 ### 🌟 Minimum Size of Subarray Sum
     Question Type:
@@ -10,7 +36,7 @@
         - If either all positive or all negative:
             - Sliding window with Two Pointer
 
-          - If mix (positive + negative)
+        - If mix (positive + negative)
             - Prefix Sum + HashMap
 
 ### 🌟 Hash Map + Prefix Sum Concept
