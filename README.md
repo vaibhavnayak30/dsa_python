@@ -78,3 +78,17 @@
         - Validate the boundary conditions just after entering dfs and return if not satisfied
         - Create changes list with [(1,0),(-1,0),(0,1),(0,-1)] and loop through them while checking for boundary and extra condition 
 
+### 🌟 Concepts
+    - Min Heap
+        - Finding the absolute minimum
+
+    - Sorted Container
+        - Finding the smallest element > X (Targeted Search)
+            - Finding smallest element greater than certain value
+
+    - DFS vs Dijkstra's
+        - Whether you can reach something -> DFS
+        - The shortest distance, least cost, or minimum time considering different weights -> Dijkstra’s Algorithm (modified)
+
+        - Are moves equally costly? -> DFS
+        - Am I minimizing something like distance, time, energy, or elevation? -> Dijkstra’s
