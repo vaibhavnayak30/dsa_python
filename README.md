@@ -1,5 +1,23 @@
 # DSA Notes
 
+### 🌟 Linked List
+    - To detect a cycle in linked list:
+        - Use slow and fast moving pointers 
+        - Move fast with 2x speed compared to slow
+            - slow = slow.next
+            - fast = fast.next.next 
+        - If they meet, cycle present 
+            - slow == fast 
+
+    - To detect node where cycle happens
+        - Detect cycle firt, if its present 
+        - If present
+            - Move slow to start => Head 
+            - Move both slow and fast in same direction at same speed
+                - slow = slow.next 
+                - fast = fast.next 
+            - Node where they meet is the node of cycle
+
 ### 🌟 Binary Search 
     - Loop condition
         - while left <= right
