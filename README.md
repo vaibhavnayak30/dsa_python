@@ -150,4 +150,8 @@
     - The height of a complete binary tree is always log(n)
     - Adding and removing elements requires, in the worst case, traversing a path from the root to a leaf or vice versa which is logarithmic
 
-
+## Palindromic Substring Concept
+    - Palindromic substring can be of "even" or "odd" length
+    - From each element, traverse in both directions until boundary conditions are met 
+    - Entering left and right index will vary for odd and even
+    - Same function handling odd and even condition 
