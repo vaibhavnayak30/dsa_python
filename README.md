@@ -2,6 +2,12 @@
 
 ### 🌟 Linked List
     - To detect a cycle in linked list:
+        - Property:
+            - "head" of list denotes the memory address of just "head" node and not full linked list 
+            - Consider each node is stored in separate memory addresses and connected by .next of each node which points to next memory addresses
+            - Changing the .next item of a node just change the class definion of that node and does not affect head definition
+            - Assigning pointer = head just points to head node not the full linked list
+
         - Use slow and fast moving pointers 
         - Move fast with 2x speed compared to slow
             - slow = slow.next
