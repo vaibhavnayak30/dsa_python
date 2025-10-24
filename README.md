@@ -63,22 +63,23 @@
         - If mix (positive + negative)
             - Prefix Sum + HashMap
 
-### 🌟 Hash Map + Prefix Sum Concept
+### 🌟 Number of Sub Array With A Sum or Sub Array Sum Divisible by k
     - Prefix Sum Map can include prefix prefix sum with count or indice
         {prefix_sum : count / indice}
     
     - Concepts: 
         - Sum(subarray) = prefix_sum[i] - prefix_sum[j]
-            where the subarray is from index j+1 to i and not j to i
+            - where the subarray is from index j+1 to i and not j to i
 
         - To find subarray with a sum, 
             - Find value of all prefix sums where key equals prefix_sum[j] - target
-            - No need to increment counter, when condition matches
+            - Increment counter only when number of subarrays are asked
 
         - To find all subarrays, divisible by a integer
             - Use concept if remainder (a/b) = remainder (c/b), then (a-c) is fully divisible by (b)
-            - Keep on calculating remainder for each prefix sums with values as count 
-            - Need to increment counter if conditions matches
+            - Keep on calculating remainder for each prefix sums with dict as {remainder[i] : index}
+            - If index of a is i and index of c is j, then number of elements divisible by integer in a subarray are (i-j)
+                - Index are --> (j+1) till (i) and not (j) till (i)
 
 ### 🌟 Sliding Window vs Prefix Sum 
     - Sliding window works when:
