@@ -161,4 +161,4 @@
     - Palindromic substring can be of "even" or "odd" length
     - From each element, traverse in both directions until boundary conditions are met 
     - Entering left and right index will vary for odd and even
-    - Same function handling odd and even condition 
+    - Same function handling odd and even condition
