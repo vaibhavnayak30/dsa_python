@@ -51,6 +51,15 @@
                 right = mid - 1
             - return right
 
+        - Peak Element
+            - Find the peak element 
+            - while left < right 
+                - Here, compare nums[mid] with nums[mid + 1]
+                - If nums[mid] > nums[mid + 1]
+                    - right = mid
+                - If nums[mid] < nums[mid + 1]
+                    - left = mid + 1
+
 ### 🌟 Minimum Size of Subarray Sum
     Question Type:
     - Return the minimal length of a subarray whose sum is greater than or equal to target
