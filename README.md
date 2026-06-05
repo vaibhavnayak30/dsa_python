@@ -171,3 +171,7 @@
     - From each element, traverse in both directions until boundary conditions are met 
     - Entering left and right index will vary for odd and even
     - Same function handling odd and even condition
+
+
+## Spotting Binary Search Problems
+    - Binary Search problems can be spotted using one
